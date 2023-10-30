@@ -33,7 +33,7 @@ This application automatically responds to incoming Gmail messages with a predef
 
 1. **Clone the Repository**: 
    ```
-   git clone (https://github.com/itsBURO/OpeningApp-Assessment
+   git clone https://github.com/itsBURO/OpeningApp-Assessment
    cd OpeningApp-Assessment
    ```
 
