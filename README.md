@@ -33,8 +33,8 @@ This application automatically responds to incoming Gmail messages with a predef
 
 1. **Clone the Repository**: 
    ```
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone (https://github.com/itsBURO/OpeningApp-Assessment
+   cd OpeningApp-Assessment
    ```
 
 2. **Install Dependencies**:
@@ -47,6 +47,10 @@ This application automatically responds to incoming Gmail messages with a predef
    ```
    CLIENT_ID=YOUR_GOOGLE_CLIENT_ID
    CLIENT_SECRET=YOUR_GOOGLE_CLIENT_SECRET
+   SECRET = YOUR_SECRET_TOKEN_FOR_EXPRESS_SESSION
+   REDIRECT_URL = https://developers.google.com/oauthplayground
+   ACCESS_TOKEN = YOUR_ACCESS_TOKEN
+   REFRESH_TOKEN = YOUR_REFRESH_TOKEN
    SECRET=YOUR_EXPRESS_SESSION_SECRET
    PORT=3000
    ```
@@ -61,7 +65,7 @@ This application automatically responds to incoming Gmail messages with a predef
      node app.js
      ```
 
-5. Open a browser and navigate to `http://localhost:3000` to start the authentication process and use the application.
+5. Open a browser and navigate to `http://localhost:3000/dashboard` to start the authentication process and use the application.
 
 ### Usage
 
