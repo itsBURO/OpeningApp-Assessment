@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Auto-Responder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 50px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        a[href="/start"] {
+            background-color: #4CAF50;
+            color: white;
+        }
+        a[href="/stop"] {
+            background-color: #f44336;
+            color: white;
+        }
+        a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Email Auto-Responder</h1>
+    <p>Status: <span id="status"><%= serviceActive ? 'Started' : 'Stopped' %></span></p>
+    <a href="/startService">Start</a>
+    <a href="/stopService">Stop</a>
+    <script>
+
+    </script>
+</body>
+</html>
